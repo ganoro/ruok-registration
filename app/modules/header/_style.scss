@@ -1,0 +1,14 @@
+#header-section{
+	border-bottom:1px solid #dcdcdc;
+	padding:20px 50px;
+	position: fixed;
+	left:0px;
+	top:-200px;
+	width: 100%;
+	background: #fff;
+	z-index: 999;
+
+	.question-row{
+		margin-bottom: 0px !important;
+	}
+}

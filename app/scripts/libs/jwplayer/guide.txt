@@ -1,0 +1,16 @@
+function stopAllMedia(){
+	$.each($(".jwplayer"),function(i,o){
+		jwplayer($(o).attr("id")).stop();
+	});
+}
+function setupMultimedia(type){
+	$.each($('.slide-promo-' + type).find(".jwplayer"),function(i,o){
+		jwplayer($(o).attr("id")).setup({
+			file: $(o).attr("jw-vid"), // video trên host hoặc link youtube
+			image: $(o).attr("jw-pic"),
+			width: "570",
+			height: '368',
+			skin: "lib/jwplayer/skins/five.xml"
+		});
+	});
+}

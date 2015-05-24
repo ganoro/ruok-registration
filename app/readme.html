@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <title>Read Me</title>
+    {% include: 'commom/headBundle.tpl' %}
+</head>
+<body>
+	<div class="container">
+        <h1 id="h1Head">Cấu trúc thư mục</h1>
+        <div id="templateStruct">
+            <ul>
+                <li><a href="">app</a>
+                    <ul>
+                        <li><a href="">angularjs</a> - Ứng dụng angular</li>
+                        <li><a href="">commom</a> - Chứa meta data, script, css được nhúng trong file html</li>
+                        <li><a href="">data</a> - Chứa hình ảnh, dữ liệu demo cho website</li>
+                        <li><a href="">fonts</a> - Chứa các font được sử dụng trong website</li>
+                        <li><a href="">images</a> - Chứa hình ảnh của layout
+                            <ul>
+                                <li><a href="">generated</a> - Chứa sprites (tăng hiệu suất website)</li>
+                                <li><a href="">icons</a> - Chứa các icons để tạo sprites</li>
+                            </ul>
+                        </li>
+                        <li><a href="">modules</a> - Chứa các modulecủa website, dùng include để nhúng vào html</li>
+                        <li><a href="">scripts</a>
+                            <ul>
+                                <li><a href="">libs</a> - Chứa các thư viện không thể cài được bằng bower
+                                    <ul>
+                                        <li><a href="">html5shiv</a> - Tạo các thẻ html5 trên trình duyệt cũ (IE)</li>
+                                        <li><a href="">jwplayer</a> - Hỗ trợ phát video từ youtube, vimeo hoặc video file từ host server</li>
+                                        <li><a href="">respond</a> - Hỗ trợ media query (CSS3) trên trình duyệt cũ (IE)</li>
+                                        <li><a href="">dateformat</a> - Định dạng thời gian, ngày giờ</li>
+                                    </ul>
+                                </li>
+                                <li><a href="">helpers.js</a> - Các hàm tiện ích</li>
+                                <li><a href="">main.js</a> - Khai báo các đoạn script dùng chung của tất cả các trang</li>
+                                <li><a href="">settings.js</a> - Cấu hình website</li>
+                            </ul>
+                        </li>
+                        <li><a href="">styles</a>
+                            <ul>
+                                <li><a href="">base</a> - Style các thẻ html, form (core)
+                                    <ul>
+                                        <li><a href="">_base.scss</a> - Style các thẻ html</li>
+                                        <li><a href="">_form.scss</a> - Style các thẻ form</li>
+                                    </ul>
+                                </li>
+                                <li><a href="">layout</a> - Style bố cục chung như header, content, footer...
+                                    <ul>
+                                        <li><a href="">_layout.scss</a> - Style bố cục trang web và những thành phần chung</li>
+                                    </ul>
+                                </li>
+                                <li><a href="">tools</a> - Chứa các variables, mixins, functions, configs hỗ trợ code nhanh hơn
+                                    <ul>
+                                        <li><a href="">_function.scss</a> - Các hàm tiện tích</li>
+                                        <li><a href="">_mixins.scss</a> - Các khối code dựng sẵn</li>
+                                        <li><a href="">_settings.scss</a> - Cấu hình cho css</li>
+                                    </ul>
+                                </li>
+                                <li><a href="">ultils</a> - Chứa các class đã style sẵn, hack theo trình duyệt, giao diện các popup
+                                    <ul>
+                                        <li><a href="">_animation.scss</a> - Hiệu ứng animation CSS3</li>
+                                        <li><a href="">_font.scss</a> - Các font được sử dụng trong website</li>
+                                        <li><a href="">_hack.scss</a> - Hack css cho các trình duyệt</li>
+                                        <li><a href="">_helpers.scss</a> - Các class được style sẵn</li>
+                                        <li><a href="">_popup.scss</a> - Style cho các kiểu popup</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">bower_components</a> - Chứa các thư viện được dùng trong website (đi kèm với bower.json)</li>
+                        <li><a href="">dist</a> - Thư mục html dev sẽ làm việc sau khi biên dịch</li>
+                        <li><a href="">node_modules</a> - Các module được sử dụng trong template (đi kèm với package.json)</li>
+                    </ul>
+                </li>
+                <li><a href="">bower.json</a> - Chứa các thư viện được dùng trong website (đi kèm với bower_components)</li>
+                <li><a href="">Gruntfile.js</a> - Cấu hình của các module trong thư mục node_modules</li>
+                <li><a href="">package.json</a> - Các module được sử dụng trong template (đi kèm với node_modules)</li>
+            </ul>
+        </div>
+        <h1 id="h1Head">Danh sách các hàm hỗ trợ (<span id="funcCount"></span>):</h1>
+        <div id="funcAccordion" class="myAccordion">
+            <div class="item">
+                <div class="question">
+                    <h2>myPopupVideo(params)</h2>
+                </div>
+                <div class="answer">
+                    <a id="demoPopupVideo" onclick="myPopupVideo({title:'Những bài hát hay nhất của Shayne Ward',videoUrl:'https://www.youtube.com/watch?v=Wslh9RTT8CY',pictureUrl:'https://i.ytimg.com/vi/Wslh9RTT8CY/mqdefault.jpg',closeOnBg:true});">Demo</a>
+                    <p>Cách sử dụng:</p>
+<pre>
+    params: {
+        title (string): Tiêu đề video,
+        videoUrl (string): Tập tin video hoặc url youtube,
+        pictureUrl (string): Hình ảnh đại diện cho video,
+        width (number - optional): Chiều dài video,
+        height (number - optional): Chiều cao video,
+        autoPlay (bool - optional): Tự động playvideo,
+        playerSkin (string - optional): Giao diện player,
+        ratio (string - optional): Tỉ lệ màn hình (16:9, 4:3),
+        closeOnBg (bool - optional): Tắt popup khi click overlay
+    }
+    myPopupVideo({
+        title:'Tiêu đề video',
+        videoUrl:'https://www.youtube.com/watch?v=Wslh9RTT8CY',
+        pictureUrl:'https://i.ytimg.com/vi/Wslh9RTT8CY/mqdefault.jpg'
+    });
+</pre>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>myPopupAlert(param)</h2>
+                </div>
+                <div class="answer">
+                    <a id="demoPopupAlert" onclick="myPopupAlert({title:'Tiêu đề',content:'Nội dung',closeOnBg:true});">Demo</a>
+                    <p>Cách sử dụng:</p>
+<pre>
+    params: {
+        title (string): Tiêu đề,
+        content (string): Nội dung,
+        closeOnBg (bool - optional): Tắt popup khi click overlay,
+        redirecTo (string - optional): Chuyển sang trang chỉ định
+    }
+    myPopupAlert({
+        title:'Tiêu đề',
+        content:'Nội dung',
+        closeOnBg:true,
+        redirecTo:'http://google.com'
+    });
+</pre>
+                    <br /><br />
+                    <span class="label label-danger">Lưu ý</span> Nếu muốn redirect sang trang khác thì thêm tham số 'redirecTo' bằng url.
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>myPopupContent(params)</h2>
+                </div>
+                <div class="answer">
+                    <a id="demoPopupContent" onclick="myPopupContent({rel:'#popupContent',width:1000,closeOnBg:true});">Demo</a>
+                    <p>Cách sử dụng:</p>
+<pre>
+    params: {
+        rel (string): Id đối tượng,
+        closeOnBg (bool - optional): Tắt popup khi click overlay,
+        width (number): chiều rộng popup
+    }
+    myPopupContent({
+        rel:'#popup',
+        closeOnBg:true,
+        width:800
+    });
+</pre>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>customRadioCheckbox() | Style cho checkbox và radio</h2>
+                </div>
+                <div class="answer">
+                    <label for="chk1"><input type="checkbox" id="chk1">Check</label>
+                    <label for="opt1"><input type="radio" name="a" id="opt1" checked>Radio 1</label>
+                    <label for="opt2"><input type="radio" name="a" id="opt2">Radio 2</label>
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        $('input[type="radio"],input[type="checkbox"]').customRadioCheckbox();
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>onlyNumber() | Chỉ cho phép nhập số</h2>
+                </div>
+                <div class="answer">
+                    <input type="text" class="onlyNumber" />
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        $('.onlyNumber').onlyNumber();
+                    </code>
+                    <br /><br />
+                    <span class="label label-danger">Lưu ý</span> Script này đã khai báo sẵn nên chỉ cần thêm class 'onlyNumber' vào input là được.
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>lockInput(value) | Không cho nhập nội dung vào input, textarea</h2>
+                </div>
+                <div class="answer">
+                    <input type="text" class="lockInput" />
+                    <input type="button" class="btn btnLockInput" value="Lock">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        $('.lockInput').lockInput(true);
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>setCookie(name, value, minuteExpires, path, domain, secure) | Tạo cookie</h2>
+                </div>
+                <div class="answer">
+                    Data <input type="text" class="inputck">
+                    <input type="button" class="btn btnCreateCookie" value="Create">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        setCookie('key', 'value', 1);
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>getCookie(name) | Lấy dữ liệu cookie</h2>
+                </div>
+                <div class="answer">
+                    <input type="button" class="btn btnGetCookie" value="Get cookie">
+                    <span class="spanck"></span>
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var data = getCookie('key');<br />
+                        alert(data);
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>deleteCookie(name, path, domain) | Xóa cookie</h2>
+                </div>
+                <div class="answer">
+                    <input type="button" class="btn btnDelCookie" value="Delete cookie">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        deleteCookie('key');
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>getWindowSize() | Lấy kích thước cửa sổ client</h2>
+                </div>
+                <div class="answer">
+                    <span class="windowSize"></span>
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var wSize = getWindowSize();<br />
+                        // return [x,y]
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>getDocumentSize() | Lấy kích thước nội dung trang web</h2>
+                </div>
+                <div class="answer">
+                    <span class="documentSize"></span>
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var wSize = getDocumentSize();<br />
+                        // return [x,y]
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>embedYoutube(link, options) | Nhúng video clip youtube vào website</h2>
+                </div>
+                <div class="answer">
+                    <div class="ytWrap"></div>
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        $('.ytWrap').append(embedYoutube('https://www.youtube.com/watch?v=HLphrgQFHUQ', { width: 480, height: 320, params: '' }));
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>limitWords(text, nWords) | Giới hạn từ hiển thị</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var str = limitWords('Lorem ipsum dolor sit amet, consectetur adipisicing elit', 5);<br />
+                        // return 'Lorem ipsum dolor sit amet...'
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>RandomRangeInt(min, max) | Tạo số ngẫu nhiêu giữa 2 giá trị cho trước</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var val = RandomRangeInt(1,10);<br />
+                        alert(val);
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>RandomRangeFloat(min, max) | Tạo số ngẫu nhiêu giữa 2 giá trị cho trước</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var val = RandomRangeFloat(1,10);<br />
+                        alert(val);
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>parseIntEx(value) | Convert dữ liệu sang số nguyên</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var val = parseIntEx('0');<br />
+                        // return 0
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>parseFloatEx(value) | Convert dữ liệu sang số thực</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var val = parseFloatEx('0');<br />
+                        // return 0
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>getQueryString(url, name) | Lấy tham số trên URL</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        var key = getQueryString('http://www.domail.com?key=key1&amp;value=value1', 'key');<br />
+                        return 'key1';
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>browserDetect() | Nhận biết trình duyệt</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        browserDetect();
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>checkIeVersion(version) | Kiểm tra phiên bản IE</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        if(checkIeVersion(7)){<br />
+                            // Code cho IE7<br />
+                        }
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>checkFlashInstalled() | Kiểm tra máy đã cài Flash Player chưa</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        checkFlashInstalled();
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>gMap(latlondef,zoom,myContent) | Tạo bản đồ Google Map</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        $(object).gMap([10,0000,12,00000], 17, "Nội dung");
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>sortBy | Sắp xếp mảng</h2>
+                </div>
+                <div class="answer">
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        arrObj.sortBy("Name", "-Age");
+                    </code>
+                </div>
+            </div>
+            <div class="item">
+                <div class="question">
+                    <h2>openWindow(winWidth, winHeight, url) | Mở cửa sổ mới và xuất hiện giữa màn hình</h2>
+                </div>
+                <div class="answer">
+                    Demo <input type="button" class="btn btn-primary" value="Mở cửa sổ mới" onclick="openWindow(800, 400, 'http://google.com.vn');" />
+                    <p>Cách sử dụng:</p>
+                    <code>
+                        openWindow(800, 400, 'http://google.com.vn');
+                    </code>
+                </div>
+            </div>
+        </div>
+	</div>
+    <div id="popupContent" class="animated magnificPopup magnificPopupContent mfp-hide">
+        <div class="headControls">
+            <h4>Tiêu đề</h4>
+        </div>
+        <form action="">
+            <input type="text">
+            <label for="chkRememberMe"><input type="checkbox" id="chkRememberMe">Checkbox</label>
+            <label for="chkRememberMe1"><input type="radio" name="a" id="chkRememberMe1">Radio 1</label>
+            <label for="chkRememberMe2"><input type="radio" name="a" id="chkRememberMe2">Radio 2</label>
+        </form>
+        <div class="footControls">
+            <a class="btn btnClosePopup">Đóng</a>
+            <a class="btn btnSave">Lưu</a>
+        </div>
+    </div>
+    {% include: 'commom/scriptBundle.tpl' %}
+    <script>
+        $(document).ready(function(){
+            $('#funcCount').text($('#funcAccordion .item').length);
+            $('#funcAccordion').myAccordion(true, false);
+
+            $('.onlyNumber').onlyNumber();
+            $('.btnLockInput').data('lock',0).click(function(){
+                var lock = $(this).data('lock');
+                if(lock===0){
+                    $(this).data('lock', 1).val('Unlock');
+                    $('.lockInput').lockInput(true);
+                }
+                else {
+                    $(this).data('lock', 0).val('Lock');
+                    $('.lockInput').lockInput(false);
+                }
+            });
+            $('.btnCreateCookie').click(function(){
+                setCookie('tin', $('.inputck').val(), 0.1, '/', 'localhost', false);
+                alert('Tạo cookie thành công!');
+
+            });
+            $('.btnGetCookie').click(function(){
+                $('.spanck').text(getCookie('tin'));
+            });
+            $('.btnDelCookie').click(function(){
+                deleteCookie('tin');
+                alert('Xóa cookie thành công!');
+            });
+            $('.windowSize').text(getWindowSize());
+            $('.documentSize').text(getDocumentSize());
+            $('.ytWrap').append(embedYoutube('https://www.youtube.com/watch?v=HLphrgQFHUQ'));
+        });
+    </script>
+</body>
+</html>

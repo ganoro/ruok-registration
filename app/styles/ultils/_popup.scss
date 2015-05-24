@@ -1,0 +1,50 @@
+﻿/****************************************************************************************
+Description: Style cho các kiểu popup
+*****************************************************************************************/
+.mfp-bg{
+    background:#fff;
+}
+.magnificPopup{
+      @include border-radius(0);
+    @include box-shadow(1px 1px 3px #444);
+    position: relative;
+    background:#fff;
+    padding:10px;
+    width: auto;
+    margin: 0px auto;
+    z-index: 100;
+    .mfp-close,.mfp-close:active{
+        @include opacity(1);
+        font-size: 36px;
+        right:-5px;
+        top:-3px;
+        color:#888;
+    }    
+     .headControls{
+        border-bottom:1px solid $biz-border-color;
+        margin-bottom:10px;
+        padding-bottom:10px;
+        h4{
+            margin:0;
+        }
+    }
+    .footControls{
+        border-top:1px solid $biz-border-color;
+        margin-top:10px;
+        padding-top:10px;
+        text-align: right;
+    }   
+}
+.magnificPopupContent{
+    max-width: 100%;
+}
+.magnificPopupVideo{
+    max-width: 800px;
+}
+.magnificPopupAlert{
+    max-width: 540px;
+    text-align:center;
+    .content{
+        font-size:18px;
+    }
+}

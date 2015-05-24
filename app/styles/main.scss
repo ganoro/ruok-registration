@@ -1,0 +1,27 @@
+﻿/****************************************************************************************
+Description: Biên dịch các file được import thành 1 file CSS
+*****************************************************************************************/
+@import "tools/settings";
+@import "tools/functions";
+@import "tools/mixins";
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+
+// Base
+@import "ultils/font";
+@import "base/base";
+@import "base/form";
+//@import "ultils/animation";
+
+// AngularJs
+// Modules
+@import "../modules/header/style";
+@import "../modules/getname/style";
+@import "../modules/start/style";
+@import "../modules/question/style";
+@import "../modules/footer/style";
+// Layout
+@import "layout/layout";
+// Hack
+@import "ultils/hack";

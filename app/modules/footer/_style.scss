@@ -1,0 +1,82 @@
+#footer-section{
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	width: 100%;
+	padding:10px;
+	height: 70px;
+	background: #f9f9f9;
+	 box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+	 border-top: 1px solid rgba(0, 0, 0, 0.2);
+	 .progress{
+	 	margin-bottom: 0px;
+	 }
+	 .btn-line{
+	 	font-size: 11px;
+	 }
+	 .btn{
+	 	margin-left: 10px;
+	 	.glyphicon{
+	 		position: relative;
+	 		top:5px;
+	 	}
+	 	.glyphicon-chevron-up{
+	 		top:2px;
+	 	}
+	 }
+}
+.progress-box{
+	width: 225px;
+	padding-top: 10px;
+	position: relative;
+	.progress{
+		 background-color: #bcdddc;
+		 height: 8px;
+	}
+	.progress-bar{
+		background: #4eafad;
+	}
+}
+#barstatus{
+	color: #4fb0ae;
+    font-family: Helvetica,Arial;
+    font-size: 13px;
+}
+.footer-btn{
+	position: absolute;
+	right:20px;
+	top:10px;
+}
+
+#footer-submit{
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	position: fixed;
+	bottom:-275px;
+	left:0px;
+	width: 100%;
+	height: 275px;
+	background: #fff;
+	p{
+		padding:15px 0;
+		color:#4fb0ae;
+		font-family: Helvetica,Arial;
+    	font-size: 12px;
+    	a{
+			color:#4fb0ae;
+			font-weight: 600;
+		}
+	}
+
+}
+@media only screen and (max-width:590px){
+	#footer-section{
+		height: auto;
+	}
+	.footer-btn{
+		bottom: 10px;
+		top:auto;
+	}
+	.progress-box{
+		margin-bottom: 60px;
+	}
+}

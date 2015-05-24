@@ -1,0 +1,92 @@
+/****************************************************************************************
+Description: Sass mixins
+*****************************************************************************************/
+@mixin font-faceEx($fontname, $fontfile) {
+    @font-face {
+        font-family: $fontname;
+        src: url('../fonts/'+$fontfile+'.eot');
+        src: url('../fonts/'+$fontfile+'.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/'+$fontfile+'.woff') format('woff'),
+		url('../fonts/'+$fontfile+'.ttf') format('truetype'),
+		url('../fonts/'+$fontfile+'.svg#'+$fontfile) format('svg');
+        font-weight: normal;
+        font-style: normal;
+	}
+}
+@mixin background($background,$width,$height){
+    background: $background;
+    width: $width;
+    height: $height;
+}
+@mixin spriteicon($width, $height, $iconfolder, $iconname){
+    @include sizeEx($width,$height);
+    display:block;
+    position: absolute;
+    top:50%;
+    margin-top:-($height/2);
+    background:sprite($iconfolder, $iconname) no-repeat;
+}
+
+@mixin responsive($width, $maxwidth, $padding){
+    .container{
+        width: $width;
+        max-width: $maxwidth;
+        padding: 0 $padding;
+    }
+}
+
+@mixin position($type: null, $top: null, $right: null, $bottom: null, $left: null, $index: null){
+    position: $type;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    z-index: $index;
+}
+
+@mixin font($name: $font-family-sans-serif, $size: $font-size-base, $color: $text-color, $weight: normal, $style: normal){
+    font-family:$name;
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin sizeEx($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin list-unstyledEx() {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+@mixin list-inlineEx() {
+    @include list-unstyledEx;
+    >li{
+        float:left;
+        *zoom: 0;
+        /*display:inline-block;
+        zoom: 1;
+        *display:inline;*/
+    }
+}
+
+@mixin border-radius($radius: 5px){
+    -moz-border-radius:$radius;
+    -webkit-border-radius:$radius;
+    border-radius:$radius;
+}
+
+@mixin rotate($degrees) {
+    -webkit-transform: rotate(#{$degrees}deg);
+    -moz-transform: rotate(#{$degrees}deg);
+    -ms-transform: rotate(#{$degrees}deg);
+    -o-transform: rotate(#{$degrees}deg);
+    transform: rotate(#{$degrees}deg);
+    filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+    zoom: 1;
+}

@@ -1,0 +1,154 @@
+#alert-submit{
+	display: none;
+}
+.question-row{
+	.view-btn{
+		display: none;
+
+	}
+
+	.btn-group-style{
+		border: 1px solid #d1d1d1;
+		background: #fbfbfb;
+		padding:5px;
+		border-radius:3px;
+		#getname{
+			opacity: 0.5;
+			filter:alpha(opacity=50);
+			&.active{
+					opacity: 1;
+					filter:alpha(opacity=100);
+				
+			}
+		}
+		.btn{
+			padding:6px 20px;
+			// opacity: 0.5;
+			// filter:alpha(opacity=50);
+			&.active{
+					opacity: 1;
+					filter:alpha(opacity=100);
+				
+			}
+		}
+		
+		.small-link{
+			position: relative;
+			top:auto;
+			left:auto;
+		}
+	}
+	margin-bottom: 50px;
+	h3{
+		position: relative;
+		color: #3d3d3d;
+	    cursor: pointer;
+	    font-family: "Source Sans Pro",sans-serif;
+	    font-size: 24px;
+	    line-height: 140%;
+	    text-align: left;
+	   
+	}
+	.form-control{
+		margin-top: 30px;
+	}
+	p{
+		color: #3d3d3d;
+	    font-size: 16px;
+	    line-height: 160%;
+	    margin-bottom: 25px;
+	    text-align: left;
+	}
+	.asterisk {
+	    display: inline-block;
+	    font-family: "Courier New",monospace;
+	    margin-top: -5px;
+	    vertical-align: top;
+	}
+	.question-child{
+		padding:30px 0;
+		.number-block{
+			left:-35px;
+		}
+	}
+}
+
+.form-control{
+	height: auto;
+	border: 2px dashed rgba(79, 176, 174, 0.4);
+	border-radius: 5px;
+	box-shadow: none;
+	&.active{
+		border:none;
+	}
+	input{
+		width: 100%;
+		background:none;
+		border:none;
+		 box-sizing: border-box;
+	    color: #4fb0ae;
+	    display: block;
+	    font-family: "Source Sans Pro",sans-serif;
+	    font-size: 30px;
+	    line-height: 40px; 
+	    outline: 0 none;
+	    resize: none;
+	}
+}
+.number-block{
+	color: #4fb0ae;
+    font-size: 20px;
+    left: -54px;
+    position: absolute;
+    top: -2px;
+    width: 31px;
+    text-align: right;
+    padding-right: 10px;
+	.glyphicon{
+		position: absolute;
+		right: -19px;
+    	top: 8px;
+	}
+}
+#get-name{
+	padding-top: 200px;
+}
+.message{
+	background-color: #900;
+    border-radius: 2px;
+   color:#fff;
+   display: none;
+    margin-top: 20px;
+    padding: 5px 8px;
+    position: relative;
+    z-index: 3;
+    &.active{
+    	display: inline-block;
+    }
+}
+.message div {
+    border-bottom: 5px solid #900;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    height: 0;
+    left: 10px;
+    position: absolute;
+    top: -5px;
+    width: 0;
+}
+.pin-top{
+	opacity: 0.5;
+}
+.pin-top.active2{
+	opacity: 1;
+}
+.item-scroll{
+	.view-btn.active{
+		display: none!important;
+	}
+	&.active{
+		.view-btn.active{
+			display: block!important;
+		}
+	}
+}

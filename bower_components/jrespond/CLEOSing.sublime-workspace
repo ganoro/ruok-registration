@@ -1,0 +1,873 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"close",
+				"closeOnBg"
+			],
+			[
+				"Cav",
+				"canvas"
+			],
+			[
+				"Fabric",
+				"fabric"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"jRes",
+				"jRespond"
+			],
+			[
+				"article",
+				"articleDirection	globalController.js"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"delayedCall",
+				"delayedCall(delay, callback, params, scope, useFrames)	tweenmax.js"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mpa",
+				"mapVietNam"
+			],
+			[
+				"col",
+				"colText"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"v",
+				"Video"
+			],
+			[
+				"fa",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"win",
+				"winH"
+			],
+			[
+				"page",
+				"prevPageParams"
+			],
+			[
+				"ha",
+				"hasScroll"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"param",
+				"paramArticle"
+			],
+			[
+				"da",
+				"delayedCall"
+			],
+			[
+				"next",
+				"menuNextIndex"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"ob",
+				"observe"
+			],
+			[
+				"dela",
+				"delayedCall"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"sli",
+				"slideDown	.slideDown()"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"show",
+				"showDate"
+			],
+			[
+				"ri",
+				"rightPanel"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"delta",
+				"deltaY"
+			],
+			[
+				"para",
+				"paramArticle"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"on",
+				"onComplete"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"fde",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"slide",
+				"slideIndex"
+			],
+			[
+				"onend",
+				"onended"
+			],
+			[
+				"en",
+				"enrichApp"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"sprite",
+				"spriteicon"
+			],
+			[
+				"my",
+				"myModule"
+			],
+			[
+				"blog",
+				"blogdetail"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"Gall",
+				"Gallery"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"key",
+				"keyup	.keyup()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"tet-",
+				"text-align"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"client",
+				"clientWidth"
+			],
+			[
+				"mouse",
+				"MouseXY"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"tal",
+				"tal:c	text-align-last:center"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"es",
+				"easeNone"
+			],
+			[
+				"mov",
+				"moveOnClick"
+			],
+			[
+				"an",
+				"Anim"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/index.html",
+			"settings":
+			{
+				"buffer_size": 9181,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: thi",
+				"Snippet: thi"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/app"
+	],
+	"file_history":
+	[
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/readme.html",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/scripts/helper.js",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/bower.json",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/list.json",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/styles/tools/_settings.scss",
+		"/D/BizzOn/Projects/CLEOSing/development/html/microsite/Gruntfile.js",
+		"/D/BizzOn/Resources/template/app/readme.html",
+		"/D/BizzOn/Resources/template/app/scripts/helper.js",
+		"/D/BizzOn/Resources/template/app/index.html",
+		"/D/BizzOn/Resources/template/app/styles/layout/_layout.scss",
+		"/D/BizzOn/Resources/template/app/scripts/global.js",
+		"/D/BizzOn/Resources/template/app/styles/ultils/_popup.scss",
+		"/D/BizzOn/Resources/template/app/styles/ultils/_animation.scss",
+		"/D/BizzOn/Resources/template/app/styles/main.scss",
+		"/D/BizzOn/Resources/template/app/styles/tools/_settings.scss",
+		"/D/BizzOn/Resources/template/bower.json",
+		"/D/BizzOn/Resources/template/app/styles/ultils/_helpers.scss",
+		"/D/BizzOn/Resources/template/app/styles/base/_form.scss",
+		"/D/BizzOn/Resources/template/app/styles/base/_base.scss",
+		"/D/BizzOn/Resources/template/app/scripts/config.js",
+		"/D/BizzOn/Resources/template/app/styles/ultils/_layout.scss",
+		"/D/BizzOn/Resources/template/app/styles/layout/_responsive.scss",
+		"/D/BizzOn/Resources/template/app/styles/global/_settings.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_responsive.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_layout.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_helpers.scss",
+		"/D/BizzOn/Resources/template/app/styles/global/_bootstrap-settings.scss",
+		"/C/Users/Hisn/Desktop/tes/structure.cmd",
+		"/C/Users/Hisn/Desktop/tes/structure.js",
+		"/C/Users/Hisn/Desktop/New folder/structure.cmd",
+		"/C/Users/Hisn/Desktop/New folder/structure.js",
+		"/D/BizzOn/Resources/template/Gruntfile.js",
+		"/D/BizzOn/Resources/template/app/scripts/animation-index.js",
+		"/D/BizzOn/Resources/template/app/.htaccess",
+		"/D/BizzOn/Resources/template/app/angularjs/app.js",
+		"/D/BizzOn/Resources/template/app/angularjs/Demo/animation.tpl",
+		"/D/BizzOn/Resources/template/app/angularjs/Demo/directive.tpl",
+		"/D/BizzOn/Resources/template/app/angularjs/Blog/blog.tpl",
+		"/D/BizzOn/Resources/template/app/angularjs/Menu/menu.tpl",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/qcommenthtml.sublime-snippet",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/cmtsass.sublime-snippet",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/qfactory.sublime-snippet",
+		"/D/BizzOn/Resources/template/app/angularjs/Shared/bzUltils.js",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/qcontroller.sublime-snippet",
+		"/D/BizzOn/Resources/template/app/angularjs/Menu/menuController.js",
+		"/D/BizzOn/Resources/template/app/angularjs/Menu/menuAnimation.js",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/qanimation.sublime-snippet",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/qdirective.sublime-snippet",
+		"/D/BizzOn/Resources/template/app/styles/global/_mixins.scss",
+		"/D/BizzOn/Resources/template/app/angularjs/Global/globalController.js",
+		"/D/BizzOn/Resources/template/app/angularjs/Blog/blogService.js",
+		"/D/BizzOn/Resources/template/app/angularjs/Blog/blogDirective.js",
+		"/D/BizzOn/Resources/template/app/angularjs/Blog/blogController.js",
+		"/D/BizzOn/Resources/template/app/styles/partials/_demo.scss",
+		"/D/BizzOn/Resources/template/app/scripts/demo.js",
+		"/D/BizzOn/Resources/template/app/demo-timeline.html",
+		"/D/BizzOn/Resources/template/app/include/demo/timeline-in-timeline.tpl",
+		"/D/BizzOn/Resources/template/app/styles/partials/_index.scss",
+		"/D/BizzOn/Resources/template/app/scripts/main.js",
+		"/D/BizzOn/Resources/template/app/styles/partials/_responsive-index.scss",
+		"/D/BizzOn/Resources/template/app/scripts/ts/note.txt",
+		"/D/BizzOn/Resources/template/app/scripts/animIndex.js",
+		"/D/BizzOn/Resources/template/app/scripts/index.js",
+		"/D/BizzOn/Resources/template/app/scripts/dev.js",
+		"/D/BizzOn/Resources/template/package.json",
+		"/D/BizzOn/Resources/template/.gitignore",
+		"/D/BizzOn/Resources/template/app/sitemap.xml",
+		"/D/BizzOn/Resources/template/app/styles/partials/_popup.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_base.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_hack.scss",
+		"/D/BizzOn/Resources/template/app/styles/partials/_404.scss",
+		"/D/BizzOn/Resources/template/app/styles/global/_functions.scss",
+		"/D/BizzOn/Resources/template/app/styles/global/_site-settings.scss",
+		"/C/Users/Hisn/AppData/Roaming/Sublime Text 3/Packages/User/cmtHtmlBlock.sublime-snippet",
+		"/D/BizzOn/Resources/template/app/styles/global/_bootstrap.scss",
+		"/D/BizzOn/Projects/Demo/FabricCanvas/index.html",
+		"/D/BizzOn/Projects/Demo/FabricCanvas/css/style.css",
+		"/D/BizzOn/Projects/Demo/YoutubeAPI/index.html",
+		"/D/BizzOn/Projects/Demo/SmoothScroll/index.html",
+		"/D/BizzOn/Projects/Demo/SmoothScroll/smoothPageScroll.js",
+		"/D/BizzOn/Projects/Demo/DemoTypeScript/app/scripts/ts/gun.ts",
+		"/D/BizzOn/Projects/Demo/jRespond/index.html",
+		"/D/BizzOn/Projects/Demo/Sharing/index.html",
+		"/D/BizzOn/Projects/Demo/FullBackgroundSlide/index.html",
+		"/D/BizzOn/Projects/Demo/jRespond/jRespond.js",
+		"/D/BizzOn/Projects/Pocaris/development/html/microsite/Gruntfile.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_responsive.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/controllers/mainController.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/mainDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/controllers/globalController.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/globalDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_main.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_layout.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_enrichoffer.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/home.html",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/data/enrich-offers-landing.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_partners.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/partnerOfferDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/partials/partner-offers.tpl",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_partneroffer.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/controllers/partnerOfferController.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/data/partner-offers-avis.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/partnersDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/journeyDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/bgstretcher/jquery-bgstretcher-3.3.0.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/enrichOfferDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/data/partner-offers-hertz-car-rental.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/app.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/directives/newsEventsDirectives.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/partials/global/mainnav.tpl",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/ytvideo/jquery.tubular.1.0.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/ytvideo/bower.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/jquery-youtube/bower.json",
+		"/C/Users/Hisn/Desktop/jquery.tubular.1.0.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/youtube-background-video/bower.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/okvideo/bower.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/ytvideo/jquery.mb.YTPlayer.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/data/journeys-appreciating-osaka1.json",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_journey.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/styles/partials/_newsevents.scss",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/scripts/main.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/angularjs/controllers/journeyController.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/bower_components/jquery/src/traversing.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.js",
+		"/D/BizzOn/Projects/Enrich/trunk/development/html/new/app/index.html",
+		"/C/Users/Hisn/Desktop/jquery.mb.YTPlayer-master/jquery.mb.YTPlayer-master/demo_as_player.html",
+		"/C/Users/Hisn/Desktop/ADM_List_1851_2000_Oct16.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\BizzOn\\Resources\\template\\app\\styles",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\styles\\partials",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\angularjs\\directives",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\angularjs",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\angularjs\\data",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\styles",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\new\\app\\angularjs",
+			"D:\\BizzOn\\Projects\\Viettel\\trunk\\development\\html\\microsite\\app\\styles\\partials",
+			"D:\\BizzOn\\Resources\\template\\app\\scripts",
+			"D:\\BizzOn\\Resources\\template\\app\\angularjs",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app",
+			"D:\\BizzOn\\Projects\\HoiDocThan\\trunk\\development\\html",
+			"D:\\BizzOn\\Projects\\HoiDocThan\\trunk\\development\\html\\microsite",
+			"D:\\BizzOn\\Projects\\Vinamilk\\trunk\\development\\html\\mobile\\app\\styles\\partials",
+			"D:\\BizzOn\\Projects\\Vinamilk\\trunk\\development\\html\\mobile\\app\\scripts",
+			"D:\\BizzOn\\Projects\\Vinamilk\\trunk\\development\\html\\mobile\\app\\styles\\partials",
+			"D:\\BizzOn\\Projects\\Vinamilk\\trunk\\development\\html\\mobile\\app\\scripts",
+			"D:\\BizzOn\\Projects\\Vinamilk\\trunk\\development\\html\\mobile\\app\\styles\\partials",
+			"D:\\BizzOn\\Projects\\Demo\\enrich\\app\\angularjs\\partials",
+			"D:\\BizzOn\\Projects\\Demo\\enrich\\app",
+			"D:\\BizzOn\\Projects\\Demo\\enrich\\app\\angularjs\\data",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app\\angularjs\\data",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app\\angularjs",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app\\angularjs",
+			"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\microsite\\app",
+			"D:\\BizzOn\\Projects\\Samsung\\trunk\\development\\html\\facebooktab\\app\\styles\\partials",
+			"D:\\BizzOn\\Projects\\HongHai\\trunk\\development\\html\\microsite\\bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap",
+			"D:\\BizzOn\\Projects\\HoiDocThan\\trunk\\development\\html\\microsite\\app\\styles\\partial",
+			"D:\\BizzOn\\Projects\\HongHai\\trunk\\development\\html\\microsite"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"renderPosts2HTML",
+			"stylishPotsts",
+			"Load Balancing hay còn gọi cân bằng tải là phân phối khối lượng công việc trên nhiều tài nguyên máy tính, chẳng hạn như máy tính, một cụm máy tính , mạng liên kết, đơn vị xử lý trung tâm hoặc ổ đĩa",
+			"                            <a title=\"Network Load Balancing\" href=\"http://tek.eten.vn/network-load-balancing\" class=\"post-title\">Network Load Balancing</a>\n                            <ul class=\"post-categories\">\n                                <li><a href=\"http://tek.eten.vn/category/server-side\">Server Side</a></li>\n                            </ul>\n",
+			"35555",
+			"https://angularjs.org/",
+			"https://github.com/ten1seven/jRespond",
+			"http://underscorejs.org/",
+			"http://daneden.github.io/animate.css/",
+			"type=\"button\"",
+			"footControls",
+			"controls",
+			"popupContent",
+			"params",
+			"popupA",
+			"params",
+			"16px",
+			"3",
+			"border-color",
+			"#ccc",
+			"form",
+			"15px",
+			"$biz-basecolor",
+			"closeOnBg",
+			"link",
+			"throttle",
+			"partials",
+			"global",
+			"blog",
+			"Blog",
+			"MainJs",
+			"OnlyNumber",
+			"FixPlaceHolder",
+			"partials",
+			"/// ",
+			"context",
+			"target",
+			"CanvasInit",
+			"CanvasEvents",
+			"CanvasInit",
+			"CanvasEvents",
+			"CanvasAddText",
+			"CanvasAddBackground",
+			"CanvasAddBacground",
+			"CanvasAddBackground",
+			"PostJs",
+			"$('#playlist p')",
+			"/a",
+			"a",
+			"PlayerGoto",
+			"YTGoto",
+			"liIdx",
+			"onclick=\"player.loadVideoById('Wx6egByKr7Y', 0, 'large');\" ",
+			"\");\n",
+			" rel=\"nofollow\" ",
+			"AddThis Tourrrrrrrrrrr",
+			"&swfurl=",
+			"http://i2.ytimg.com/vi/1F7DKyFt5pY/default.jpg",
+			"AddThis+Tourrrrrrrrrrr",
+			"%26",
+			"&",
+			"#",
+			"http://www.dev.bizzon.com.vn/dwor/htome?v=1F7DKyFt5pY",
+			"www.youtube.com/watch",
+			"AddThis+Tour",
+			"www.youtube.com/watch?v=1F7DKyFt5pY",
+			"http://www.youtube.com/watch?v=1F7DKyFt5pY",
+			"AddThis+Tour",
+			"Watch+the+AddThis+Tour+video.",
+			"http://www.youtube.com/watch?v=1F7DKyFt5pY",
+			"&swfurl=",
+			"http://www.youtube.com/v/1F7DKyFt5pY&height=251&width=400",
+			"laptop",
+			"tablet",
+			"myInitFuncLaptop",
+			"pc",
+			"jRes",
+			"mediaQu",
+			"mediaQuery",
+			"jRes",
+			"fr2Heart",
+			"logoOffer",
+			"offer",
+			"navControl",
+			"fullPagePaging",
+			"partnerOfferLanding'),500",
+			"partnerOfferLanding",
+			"fullPagePaging",
+			"rightPanel",
+			"460",
+			"500",
+			"540",
+			"500",
+			"540",
+			"partnerFullPage",
+			"fullPagePaging",
+			"partnerFirstDir",
+			"fromMain",
+			"partnerOfferLanding",
+			"checkModuleMove",
+			"partnerOfferLanding",
+			"-offer",
+			"partnerOfferLanding",
+			"tp",
+			"partnerOfferLanding",
+			"enrichOfferLanding",
+			"tp",
+			"check",
+			"&&",
+			"540",
+			"500",
+			"$scope.prevPageParams.module",
+			"winH",
+			"moveBackground",
+			"moveBackgroundOut",
+			"alert",
+			"playNextIndexWithImgName",
+			"menuDirection",
+			"tweenMax",
+			"2",
+			"moveModule",
+			"slideShow",
+			"playBackIndexWithImgName",
+			"moveToPage",
+			"isAnimationInAlready",
+			"menuAnimIn",
+			"isHomePage",
+			"2000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"moveModule",
+			"\"sharetwitter\"",
+			"                        }",
+			"HelveticaNeueB",
+			"HelveticaNeueL",
+			"HelveticaNeueR",
+			"#/journeys?",
+			"$scope",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/BizzOn/Projects/CLEOSing/development/html/microsite/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7170,
+								7170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "CLEOSing.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\BizzOn\\Projects\\Enrich\\trunk\\development\\html\\mobile\\EnrichMobile.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -419,14 +419,17 @@ var mainJs = (function(){
         
         var user = { is_self: 'true' };
         _.each(mandatory, function(key, i) {
-            user[key] = $($('input[rel]')[i + 1]).val();
+            user[key] = $($('input[rel]')[i]).val();
         });
-
+        
+        create('Users', user);
+    }
+    
+    function create(collection, object) {
         var url = "https://script.google.com/macros/s/AKfycbyEb1I71iIUogV14MAFUVEAdsBTR2QlqLaOXSd-cR2_uH2D808/exec";
-        var operation = "?action=create&sheet=Users";
+        var operation = "?action=create&sheet=" + collection;
         var key = "&key=B6EC82FB-6564-4AAC-B3D7-BF8B45A1A551";
-  
-        $.post(url + operation + key, JSON.stringify(user));
+        $.post(url + operation + key, JSON.stringify(object));
     }
     
     function missingMandatory() {

@@ -25,7 +25,7 @@
 			<span class="number-block">
 				3 <span aria-hidden="true" class="glyphicon glyphicon-arrow-right"></span>
 			</span>
-			<span>Do you have a secondary phone number?<span class="asterisk">*</span></span>
+			<span>Do you have a secondary phone number?</span>
 			</h3>
 			<div class="form-control">
 				<input type="text" class="itemkey" rel="2">
@@ -63,7 +63,7 @@
 			<span class="number-block">
 				5 <span aria-hidden="true" class="glyphicon glyphicon-arrow-right"></span>
 			</span>
-			<span>What city do you live in?</span>
+			<span>What city do you live in?<span class="asterisk">*</span></span>
 			</h3>
 			<p>(AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, , MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY)</p>
             <div class="form-control">
@@ -83,7 +83,7 @@
 			<span class="number-block">
 				6 <span aria-hidden="true" class="glyphicon glyphicon-arrow-right"></span>
 			</span>
-			<span>What is your full address?<span class="asterisk">*</span></span>
+			<span>What is your full address?</span>
 			</h3>
             <div class="form-control">
 				<input type="text" class="itemkey" rel="5">
@@ -174,7 +174,7 @@
 					<span class="number-block">
 						a
 					</span>
-					<span>Name<span class="asterisk">*</span></span>
+					<span>Name</span>
 				</h3>
 				<div class="form-control">
 					<input type="text" class="itemkey" rel="9">
@@ -193,7 +193,7 @@
 					<span class="number-block">
 						b
 					</span>
-					<span>Phone<span class="asterisk">*</span></span>
+					<span>Phone</span>
 				</h3>
 				<div class="form-control">
 					<input type="text" class="itemkey" rel="10">
@@ -212,7 +212,7 @@
 					<span class="number-block">
 						c
 					</span>
-					<span>Email<span class="asterisk">*</span></span>
+					<span>Email</span>
 				</h3>
 				<div class="form-control">
 					<input type="text" class="itemkey" rel="11">

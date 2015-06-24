@@ -307,21 +307,20 @@ var mainJs = (function(){
 			count=0;
 			iit.each(function(){
 				if($(this).find(".form-control input").length>0){
-					if($(this).find(".form-control input").val()!=""){
+					if ($(this).find(".form-control input").val()!="") {
 						count++;
 						
 					}
 				}else{
-					if($(this).find(".check-div.active").length>0){
+					if ($(this).find(".check-div.active").length>0) {
 						count++;
 					}
 				}
-				
-				
 			});
 			$(".progress-bar").width(count/iit.length*100+"%");
 			$("#count").html(count);
-			$("#sum-number").html(iit.length-count);
+            var missing = missingMandatory();
+			$("#sum-number").html(missing);
 		},500);
 	};
 	var keyitems;
@@ -329,7 +328,6 @@ var mainJs = (function(){
 	function keypress(){
 		keyitems=$(".itemkey");
 		$(document).keyup(function(e){
-		
 			if(e.keyCode==38){
                         if($("#startName").val()==""){
                         	$("body,html").animate({scrollTop:0});
@@ -392,29 +390,55 @@ var mainJs = (function(){
 	                        	
 	                        }
                    		}
-                        
                   }
 		});
 
 		$("#submit-btn").click(function(){
 			if(!$("#startName").val()==""){
-				if(count==iit.length){
+				var missing = missingMandatory();
+                if(missing == 0){
 					$("#alert-submit").fadeOut();
 					$("#thankyou-section").fadeIn();
-					$("#question-wrapper").fadeOut();
+					$("#question-wrapper").fadeOut();                   
+                    addCustomer();
 				}else{
 					$("#alert-submit").fadeIn();
-					$("#sum-number").html(iit.length-count);
+					$("#sum-number").html(missing);
 				}
 			}else{
 				$("#alert-submit").fadeIn();
-					$("#sum-number").html(1);
+                $("#sum-number").html(1);
 			}
 		})
 
 	};
-	function reset(){
+    
+    function addCustomer() {
+        var mandatory = ["full_name", "primary_number", "secondary_number", "checkin_time", "state", "address", 
+                         "contact1_name", "contact1_phone", "contact1_email", "contact2_name", "contact2_phone", "contact2_email"];
+        
+        var user = { is_self: 'true' };
+        _.each(mandatory, function(key, i) {
+            user[key] = $($('input[rel]')[i + 1]).val();
+        });
 
+        var url = "https://script.google.com/macros/s/AKfycbyEb1I71iIUogV14MAFUVEAdsBTR2QlqLaOXSd-cR2_uH2D808/exec";
+        var operation = "?action=create&sheet=Users";
+        var key = "&key=B6EC82FB-6564-4AAC-B3D7-BF8B45A1A551";
+  
+        $.post(url + operation + key, JSON.stringify(user));
+    }
+    
+    function missingMandatory() {
+        var mandatory = [1, 3, 4, 6, 7, 8];
+        var c = 0;
+        _.each(mandatory, function(i) {
+            c += $($('input[rel]')[i]).val().length > 0 ? 1 :0;  
+        });
+        return mandatory.length - c;
+    }
+    
+	function reset(){
 		$(".item-scroll input").val("");
 		$("body,html").animate({scrollTop:0});
 		$(".check-div").removeClass("active").find("input").removeAttr("checked");

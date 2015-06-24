@@ -5,7 +5,7 @@
 			<span class="number-block">
 				1 <span aria-hidden="true" class="glyphicon glyphicon-arrow-right"></span>
 			</span>
-			<span>What's your name?<span class="asterisk">*</span></span>
+			<span>What's your full name?<span class="asterisk">*</span></span>
 			</h3>
 			<div class="form-control">
 				<input class="itemkey" type="text" id="startName" rel="0">

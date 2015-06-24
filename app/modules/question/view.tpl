@@ -5,9 +5,9 @@
 			<span class="number-block">
 				2 <span aria-hidden="true" class="glyphicon glyphicon-arrow-right"></span>
 			</span>
-			<span>What is your primary phone number that we will use when checkin?<span class="asterisk">*</span></span>
+			<span>What is your primary phone number?<span class="asterisk">*</span></span>
 			</h3>
-			<p>We'll check up on you when you don't respond. And maybe ask you on a date once in awhile. ;-)</p>
+			<p>Don't worry we don't share your private infromation with others.</p>
 			<div class="form-control">
 				<input type="text" class="itemkey" rel="1">
 			</div>
@@ -65,7 +65,7 @@
 			</span>
 			<span>What city do you live in?</span>
 			</h3>
-			<p>Valid states AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, , MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY</p>
+			<p>(AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, , MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY)</p>
             <div class="form-control">
 				<input type="text" class="itemkey" rel="4">
 			</div>
